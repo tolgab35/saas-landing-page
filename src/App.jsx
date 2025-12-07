@@ -1,6 +1,9 @@
 import heroImg from "./assets/hero-section.gif";
 import firmsImg from "./assets/firms.png";
 import previewImg from "./assets/preview.png";
+import cardsImg from "./assets/cards-icon.png";
+import coinImg from "./assets/coin-icon.png";
+import purseImg from "./assets/purse-icon.png";
 
 function App() {
   return (
@@ -29,7 +32,7 @@ function App() {
               SaaS Landing <br /> Page Template
             </h1>
 
-            <p className="max-w-md text-lg text-gray-400">
+            <p className="max-w-md text-lg text-white/40">
               This is a template Figma file, turned into code using Anima. Learn
               more at AnimaApp.com
             </p>
@@ -62,6 +65,40 @@ function App() {
         <div className="max-w-[1280px] mx-auto py-16">
           <div className="bg-[#FDF5DF] rounded-[20px] flex items-center justify-center">
             <img src={previewImg} alt="Preview" />
+          </div>
+        </div>
+      </section>
+
+      {/* FEATURES */}
+      <section className="max-w-[1280px] mx-auto py-16 px-8">
+        <div className="flex items-start justify-center gap-12 text-center">
+          <div className="flex-1 flex flex-col items-center gap-4">
+            <img src={cardsImg} alt="Cards" className="w-16 h-16 mb-4" />
+            <h3 className="text-xl font-semibold text-white leading-relaxed">
+              Customizable card
+            </h3>
+            <p className="text-white/40 max-w-xs leading-relaxed">
+              Custom your own card for your exact incomes and expenses needs.
+            </p>
+          </div>
+          <div className="flex-1 flex flex-col items-center gap-4">
+            <img src={coinImg} alt="Coin" className="w-16 h-16 mb-4" />
+            <h3 className="text-xl font-semibold text-white leading-relaxed">
+              No payment fee
+            </h3>
+            <p className="text-white/40 max-w-xs leading-relaxed">
+              Transfer your payment all over the world with no payment fee.
+            </p>
+          </div>
+          <div className="flex-1 flex flex-col items-center gap-4">
+            <img src={purseImg} alt="Purse" className="w-16 h-16 mb-4" />
+            <h3 className="text-xl font-semibold text-white leading-relaxed">
+              All in one place
+            </h3>
+            <p className="text-white/40 max-w-xs leading-relaxed">
+              The right place to keep your credit and debit cards, boarding
+              passes & more.
+            </p>
           </div>
         </div>
       </section>
