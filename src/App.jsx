@@ -5,6 +5,7 @@ import cardsImg from "./assets/cards-icon.png";
 import coinImg from "./assets/coin-icon.png";
 import purseImg from "./assets/purse-icon.png";
 import userFeedbackImg from "./assets/user-feedback.png";
+import walletImg from "./assets/wallet.gif";
 
 function App() {
   return (
@@ -108,7 +109,7 @@ function App() {
 
       {/* TESTIMONIAL */}
       <section className="max-w-[1280px] mx-auto px-8 py-16">
-        <div className="bg-[#BFAFF2] rounded-[20px] py-12 px-16 flex flex-col items-center gap-12">
+        <div className="bg-[#BFAFF2] rounded-[20px] py-16 px-16 flex flex-col items-center gap-12">
           <blockquote className="text-2xl font-semibold text-[#333333] leading-relaxed max-w-3xl text-left">
             "Wallet is a great product! All of my most important information is
             there - credit cards, transit cards, boarding passes, tickets, and
@@ -136,6 +137,38 @@ function App() {
                   </svg>
                 ))}
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* CONTACT CTA */}
+      <section className="max-w-[1280px] mx-auto px-16 py-16">
+        <div className="bg-[#2B2B2B] rounded-[20px] flex items-center justify-between">
+          {/* LEFT */}
+          <div className="flex-1">
+            <h2 className="text-5xl font-bold text-white mb-6 leading-tight">
+              Questions?
+              <br />
+              Let's talk
+            </h2>
+            <p className="text-white/60 mb-2">
+              Contact us through our 24/7 live chat.
+            </p>
+            <p className="text-white/60 mb-8">We're always happy to help!</p>
+            <button className="px-8 py-3 rounded-lg bg-[#F8D57E] text-[#333333] font-medium hover:bg-[#e6c66d] transition-colors">
+              Get started
+            </button>
+          </div>
+
+          {/* RIGHT */}
+          <div className="flex-1 flex justify-center">
+            <div className="bg-[#C8E5E0] rounded-[20px] p-12 w-full max-w-md aspect-square flex items-center justify-center">
+              <img
+                src={walletImg}
+                alt="Wallet"
+                className="w-full h-full object-contain"
+              />
             </div>
           </div>
         </div>
