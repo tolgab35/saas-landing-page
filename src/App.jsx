@@ -4,12 +4,13 @@ import previewImg from "./assets/preview.png";
 import cardsImg from "./assets/cards-icon.png";
 import coinImg from "./assets/coin-icon.png";
 import purseImg from "./assets/purse-icon.png";
+import userFeedbackImg from "./assets/user-feedback.png";
 
 function App() {
   return (
     <div className="bg-[#2B2B2B] min-h-screen">
       {/* HEADER */}
-      <header className="max-w-[1280px] mx-auto py-6 flex items-center justify-between">
+      <header className="max-w-[1280px] mx-auto px-8 py-6 flex items-center justify-between">
         <div className="text-2xl font-semibold text-white">Wallet</div>
 
         <div className="flex items-center gap-4">
@@ -25,7 +26,7 @@ function App() {
 
       {/* HERO */}
       <section>
-        <div className="max-w-[1280px] mx-auto  py-16 flex flex-col md:flex-row items-center gap-16">
+        <div className="max-w-[1280px] mx-auto px-8 py-16 flex flex-col md:flex-row items-center gap-16">
           {/* LEFT */}
           <div className="flex-1 flex flex-col gap-12">
             <h1 className="text-6xl font-semibold text-white leading-snug">
@@ -55,14 +56,14 @@ function App() {
 
       {/* FIRMS */}
       <section>
-        <div className="max-w-[1280px] mx-auto px-16 py-16 flex items-center justify-between gap-8 border-t-2 border-b-2 border-white/10">
+        <div className="max-w-[1280px] mx-auto px-8 py-16 flex items-center justify-between gap-8 border-t-2 border-b-2 border-white/10">
           <img src={firmsImg} alt="Firms" />
         </div>
       </section>
 
       {/* PREVIEW */}
       <section>
-        <div className="max-w-[1280px] mx-auto py-16">
+        <div className="max-w-[1280px] mx-auto px-8 py-16">
           <div className="bg-[#FDF5DF] rounded-[20px] flex items-center justify-center">
             <img src={previewImg} alt="Preview" />
           </div>
@@ -81,6 +82,7 @@ function App() {
               Custom your own card for your exact incomes and expenses needs.
             </p>
           </div>
+
           <div className="flex-1 flex flex-col items-center gap-4">
             <img src={coinImg} alt="Coin" className="w-16 h-16 mb-4" />
             <h3 className="text-xl font-semibold text-white leading-relaxed">
@@ -90,6 +92,7 @@ function App() {
               Transfer your payment all over the world with no payment fee.
             </p>
           </div>
+
           <div className="flex-1 flex flex-col items-center gap-4">
             <img src={purseImg} alt="Purse" className="w-16 h-16 mb-4" />
             <h3 className="text-xl font-semibold text-white leading-relaxed">
@@ -99,6 +102,41 @@ function App() {
               The right place to keep your credit and debit cards, boarding
               passes & more.
             </p>
+          </div>
+        </div>
+      </section>
+
+      {/* TESTIMONIAL */}
+      <section className="max-w-[1280px] mx-auto px-8 py-16">
+        <div className="bg-[#BFAFF2] rounded-[20px] py-12 px-16 flex flex-col items-center gap-12">
+          <blockquote className="text-2xl font-semibold text-[#333333] leading-relaxed max-w-3xl text-left">
+            "Wallet is a great product! All of my most important information is
+            there - credit cards, transit cards, boarding passes, tickets, and
+            more. And I don't need to worry because it's all in one place!
+            thanks!”
+          </blockquote>
+
+          <div className="flex items-center gap-4 w-full max-w-3xl">
+            <img
+              src={userFeedbackImg}
+              alt="Johnny Owens"
+              className="w-16 h-16 rounded-full"
+            />
+            <div>
+              <p className="text-lg font-medium text-[#333333]">Johnny Owens</p>
+              <div className="flex gap-1 mt-1">
+                {[...Array(5)].map((_, i) => (
+                  <svg
+                    key={i}
+                    className="w-5 h-5"
+                    viewBox="0 0 20 20"
+                    fill="#333333"
+                  >
+                    <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z" />
+                  </svg>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
       </section>
