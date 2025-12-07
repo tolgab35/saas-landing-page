@@ -1,13 +1,14 @@
 import heroImg from "./assets/hero-section.gif";
+import firmsImg from "./assets/firms.png";
 
 function App() {
   return (
     <div className="bg-[#2B2B2B] min-h-screen">
       {/* HEADER */}
-      <header className="max-w-[1280px] mx-auto px-12 py-6 flex items-center justify-between">
+      <header className="max-w-[1280px] mx-auto px-6 py-6 flex items-center justify-between">
         <div className="text-2xl font-semibold text-white">Wallet</div>
 
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-4">
           <button className="w-[175px] h-[50px] rounded-[15px] text-white font-normal hover:text-gray-300 transition-colors">
             Sign up
           </button>
@@ -20,7 +21,7 @@ function App() {
 
       {/* HERO */}
       <section>
-        <div className="max-w-[1280px] mx-auto px-12 py-24 flex flex-col md:flex-row items-center gap-16">
+        <div className="max-w-[1280px] mx-auto px-6 py-16 flex flex-col md:flex-row items-center gap-16">
           {/* LEFT */}
           <div className="flex-1 flex flex-col gap-12">
             <h1 className="text-6xl font-semibold text-white leading-snug">
@@ -45,6 +46,13 @@ function App() {
               className="w-full max-w-[500px] h-auto object-cover rounded-lg"
             />
           </div>
+        </div>
+      </section>
+
+      {/* FIRMS */}
+      <section>
+        <div className="max-w-[1280px] mx-auto px-12 py-16 flex items-center justify-between gap-8 border-t-2 border-b-2 border-white/10">
+          <img src={firmsImg} alt="Firms" />
         </div>
       </section>
     </div>
