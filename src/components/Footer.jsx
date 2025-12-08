@@ -5,9 +5,9 @@ function Footer() {
         <div className="flex flex-col md:flex-row items-start justify-between gap-8 lg:gap-12">
           {/* LEFT SIDE */}
           <div className="flex-1">
-            <h3 className="text-2xl font-bold text-white mb-6">Wallet</h3>
+            <h3 className="text-2xl font-bold text-white mb-6">FlowPay</h3>
             <div className="flex flex-wrap items-center gap-4 text-white/60 text-sm">
-              <span>© Wallet 2025</span>
+              <span>© FlowPay 2025</span>
               <a
                 href="#"
                 className="hover:text-white transition-colors duration-200"

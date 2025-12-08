@@ -6,10 +6,10 @@ function Testimonial() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-[#BFAFF2] rounded-2xl py-12 px-8 lg:py-16 lg:px-16 flex flex-col items-center gap-8 shadow-xl">
           <blockquote className="text-xl sm:text-2xl font-semibold text-[#333333] leading-relaxed max-w-3xl">
-            "Wallet is a great product! All of my most important information is
-            there - credit cards, transit cards, boarding passes, tickets, and
-            more. And I don't need to worry because it's all in one place!
-            thanks!"
+            "FlowPay transformed how I manage my business finances. The instant
+            transfers and real-time analytics have saved me countless hours.
+            It's not just a payment app—it's my complete financial command
+            center."
           </blockquote>
 
           <div className="flex items-center gap-4 w-full max-w-3xl">

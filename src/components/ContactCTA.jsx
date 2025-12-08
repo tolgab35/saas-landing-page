@@ -8,18 +8,19 @@ function ContactCTA() {
           {/* LEFT */}
           <div className="flex-1">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6 leading-tight">
-              Questions?
+              Ready to take
               <br />
-              Let's talk
+              control?
             </h2>
             <p className="text-white/60 mb-2 text-base">
-              Contact us through our 24/7 live chat.
+              Join over 50,000 users who trust FlowPay with their finances.
             </p>
             <p className="text-white/60 mb-8 text-base">
-              We're always happy to help!
+              Get started in minutes with our 14-day free trial. No credit card
+              required.
             </p>
             <button className="px-8 py-3 rounded-xl bg-[#F8D57E] text-[#333333] font-semibold hover:bg-[#e6c66d] hover:shadow-lg transition-all duration-200">
-              Get started
+              Start Free Trial
             </button>
           </div>
 

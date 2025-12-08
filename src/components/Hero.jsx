@@ -7,16 +7,16 @@ function Hero() {
         {/* LEFT */}
         <div className="flex-1 flex flex-col gap-8">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight">
-            SaaS Landing <br /> Page Template
+            Your Money, <br /> Simplified
           </h1>
 
           <p className="max-w-md text-base sm:text-lg text-white/60 leading-relaxed">
-            This is a template Figma file, turned into code using Anima. Learn
-            more at AnimaApp.com
+            Manage all your finances in one place. Send money globally, track
+            expenses, and control your digital wallet with zero friction.
           </p>
 
           <button className="w-fit px-8 py-3 rounded-xl bg-[#F8D57E] text-[#333333] font-semibold hover:bg-[#e6c66d] hover:shadow-lg transition-all duration-200">
-            Get started
+            Start Free Trial
           </button>
         </div>
 

@@ -15,9 +15,10 @@ function Features() {
                 className="w-full h-full object-contain"
               />
             </div>
-            <h3 className="text-xl font-bold text-white">Customizable card</h3>
+            <h3 className="text-xl font-bold text-white">Smart Budgeting</h3>
             <p className="text-white/60 max-w-xs leading-relaxed">
-              Custom your own card for your exact incomes and expenses needs.
+              AI-powered insights track your spending patterns and help you save
+              more with personalized recommendations.
             </p>
           </div>
 
@@ -29,9 +30,12 @@ function Features() {
                 className="w-full h-full object-contain"
               />
             </div>
-            <h3 className="text-xl font-bold text-white">No payment fee</h3>
+            <h3 className="text-xl font-bold text-white">
+              Zero Transaction Fees
+            </h3>
             <p className="text-white/60 max-w-xs leading-relaxed">
-              Transfer your payment all over the world with no payment fee.
+              Send and receive money globally without any hidden charges. Free
+              international transfers included.
             </p>
           </div>
 
@@ -43,10 +47,12 @@ function Features() {
                 className="w-full h-full object-contain"
               />
             </div>
-            <h3 className="text-xl font-bold text-white">All in one place</h3>
+            <h3 className="text-xl font-bold text-white">
+              Multi-Currency Support
+            </h3>
             <p className="text-white/60 max-w-xs leading-relaxed">
-              The right place to keep your credit and debit cards, boarding
-              passes & more.
+              Hold and manage multiple currencies in one account. Real-time
+              exchange rates at your fingertips.
             </p>
           </div>
         </div>
