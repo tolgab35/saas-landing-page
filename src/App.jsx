@@ -39,7 +39,7 @@ function App() {
               more at AnimaApp.com
             </p>
 
-            <button className="w-fit px-8 py-3 rounded-lg bg-[#F8D57E] text-[#333333] font-medium hover:bg-[#e6c66d] transition-colors">
+            <button className="w-fit px-8 py-3 rounded-[15px] bg-[#F8D57E] text-[#333333] font-medium hover:bg-[#e6c66d] transition-colors">
               Get started
             </button>
           </div>
@@ -156,7 +156,7 @@ function App() {
               Contact us through our 24/7 live chat.
             </p>
             <p className="text-white/60 mb-8">We're always happy to help!</p>
-            <button className="px-8 py-3 rounded-lg bg-[#F8D57E] text-[#333333] font-medium hover:bg-[#e6c66d] transition-colors">
+            <button className="px-8 py-3 rounded-[15px] bg-[#F8D57E] text-[#333333] font-medium hover:bg-[#e6c66d] transition-colors">
               Get started
             </button>
           </div>
@@ -173,6 +173,48 @@ function App() {
           </div>
         </div>
       </section>
+
+      {/* FOOTER */}
+      <footer className="max-w-[1280px] mx-auto px-16 py-16">
+        <div className="flex items-start justify-between gap-12">
+          {/* LEFT SIDE */}
+          <div className="flex-1">
+            <h3 className="text-2xl font-semibold text-white mb-8">Wallet</h3>
+            <div className="flex items-center gap-4 text-white/60 text-sm">
+              <span>© Wallet 2025</span>
+              <a href="#" className="hover:text-white transition-colors">
+                Privacy policy
+              </a>
+              <a href="#" className="hover:text-white transition-colors">
+                Cookies policy
+              </a>
+              <a href="#" className="hover:text-white transition-colors">
+                Terms of use
+              </a>
+            </div>
+          </div>
+
+          {/* RIGHT SIDE */}
+          <div className="flex-1 flex flex-col gap-4 items-end">
+            <div className="flex flex-col gap-4 items-start w-full max-w-md">
+              <h4 className="text-white text-base font-normal">
+                Updates right to your Inbox
+              </h4>
+
+              <div className="flex items-center gap-4 w-full">
+                <input
+                  type="email"
+                  placeholder="Email Address"
+                  className="flex-1 bg-[#3A3A3A] rounded-[15px] text-white placeholder:text-white/40 px-4 py-3 outline-none focus:bg-[#454545] transition-colors"
+                />
+                <button className="px-10 py-3 rounded-[15px] bg-[#BFAFF2] text-[#333333] font-normal hover:bg-[#a89fd9] transition-colors">
+                  Send
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
